@@ -59,19 +59,7 @@ public class periodico extends Agent {
                 return agentList[0].getName();
             }
             
-//            for (int i = 0; i < agentList.length; i++) {
-//                String out = agentList[i].getName().getLocalName();
-//                
-//                System.out.println(">>>>> "+out );
-//                
-//                java.util.Iterator iter = agentList[i].getAllServices();
-//                while (iter.hasNext()) {
-//                    ServiceDescription descript = (ServiceDescription)iter.next();
-//                   
-//                    System.out.println(">>>>> Servico "+descript.getName());
-//                }
-//                
-//            }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
