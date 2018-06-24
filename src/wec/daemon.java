@@ -20,7 +20,7 @@ public class daemon extends Thread {
     private int port;
     private ServerSocket listener;
     private janela launchingGUI;
-    private final String mensagem="bolacha";
+    
     private forecastData envelope;
     private final String serviceOK="Service running @ ";
     private final String serviceNok="Service stopped";
